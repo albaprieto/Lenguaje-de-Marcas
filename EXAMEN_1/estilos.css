@@ -1,0 +1,168 @@
+* {
+box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }  
+
+[class*="col-"] {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+      
+@media only screen and (min-width: 768px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+
+html {
+    font-family: "Arial";
+    font-size: 17px;
+}
+/*CABECERA*/
+header{
+    background-color: #B9FFD7;
+    padding: 15px;
+}
+.logo{
+    float: left;
+  }
+nav{
+    float: right;
+    padding: 12px;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #065600;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    background-color:#065600;
+    padding: 12x;
+    color: white;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color:#000000;
+}
+li{
+    display: inline;
+}
+li a{
+    float: left;
+    padding: 12px;
+    text-decoration: none;
+}
+
+/*CUERPO*/
+img{
+    margin: auto;
+    display: inline-block;
+}
+.imagenes{
+    display: block;
+}
+
+h1{
+  text-align: center;
+  color: rgb(73, 72, 72);
+}
+h4{
+  text-align: center;
+}
+p{
+  text-align: justify;
+}
+table {
+  border-spacing: 0.01px;
+  border-color: #A9E2F3;
+  font-size: 17px;
+}
+td{
+  vertical-align: middle;
+  text-align: center;
+}
+
+th{
+	font-size: 12px;
+	text-align: left;
+	vertical-align: middle;
+}
+textarea{
+    align-content: center;
+}
+button{
+    text-align: right;
+    vertical-align: center;
+    padding: 10px 10px;
+    align-items: right;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.boton {
+      background-color: white; 
+      color: black; 
+      border: 2px solid #065600;
+}
+
+fieldset{
+    width: 50%;
+}
+
+/*PIE DE PAGINA*/
+footer {
+    background-color: rgb(72, 160, 110);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+    
+    
+}
+/*FILTROS IMAGENES*/
+span {
+	-webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    float: left;
+}
+span:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+span img {
+    width: 70%;
+}
