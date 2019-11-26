@@ -23,69 +23,61 @@
 
 
     <!--CUERPO-->
-    <article>
-        <h1>Calendario de actividades</h1>
-        <section class="col-12">
-          <center>
-            <table border="1px">
-
-                <!--FILA 1-->
-                <tr>
-                  <td bgcolor="#A9BCF5" valign="middle"style="font-size:12px; color:#0101DF" align="center"><i>HORAS<i></td>
-                  <td bgcolor="#A9BCF5" ><b>LUNES</b></td>
-                  <td bgcolor="#A9BCF5" ><b>MARTES</b></td>
-                  <td bgcolor="#A9BCF5" ><b>MIERCOLES</b></td>
-                  <td bgcolor="#A9BCF5" ><b>JUEVES</b></td>
-                  <td bgcolor="#A9BCF5" ><b>VIERNES</b></td>
-                </tr>
-              
-                <!--FILA 2-->
-                <tr>
-                  <td bgcolor="#A9BCF5" valign="middle" style="font-size:12px;color:#0101DF" align="center" ><i>8:15 <br> 9:15<i></td>
-                  <td rowspan="4" bgcolor="#8DFAD1">Apertura del campeonato</td>
-                  <td rowspan="5" bgcolor="#C69AFD">Exposicion de todos los participantes</td>
-                  <td rowspan="7" bgcolor="#BEBEBE">DESCANSO</td>
-                  <td rowspan="2" bgcolor="#BEBEBE"> DESCANSO</td>
-                  <td rowspan="3" bgcolor="#EAFA8D">FINAL</td>
-                </tr>
-              
-                 <!--FILA 3-->
-                <tr>
-                  <td bgcolor="#A9BCF5" valign="middle" style="font-size:12px; color:#0101DF" align="center"><i>9:15 <br> 10:15<i></td>
-                </tr>
-              
-                <!--FILA 4-->
-                <tr>
-                  <td bgcolor="#A9BCF5" valign="middle" style="font-size:12px; color:#0101DF" align="center" ><i>10:15 <br> 11:15<i></td>
-                  <td  rowspan="5 "bgcolor="#EAFA8D">SEMIFINAL</td>
-                </tr>
-              
-                <!--FILA 5-->
-                  <td bgcolor="#A9BCF5"  style="font-size:12px; color:#0101DF" ><i>11:15 <br> 11:45<i></td>
-                    <td rowspan="3"bgcolor="#BEBEBE">DESCANSO</td>
-                </tr>
-              
-                <!--FILA 6-->
-                <tr>
-                  <td bgcolor="#A9BCF5" valign="middle" style="font-size:12px; color:#0101DF" align="center" ><i>11:45 <br> 12:45<i></td>
-                  <td rowspan="3"bgcolor="#F65F5F">Debate</td>
-                </tr>
-              
-                <!--FILA 7-->
-                <tr>
-                  <td bgcolor="#A9BCF5" valign="middle" style="font-size:12px; color:#0101DF" align="center"><i>12:45 <br> 13:45<i></td>
-                  <td rowspan="2" bgcolor="#B8FEED">Conferencia ornitologica</td>
-                </tr>
-              
-                  <!--FILA 8-->
-                <tr>
-                  <td bgcolor="#A9BCF5" valign="middle" style="font-size:12px; color:#0101DF" align="center"> <i>13:45 <br> 14:45<i></td>
-                  <td bgcolor="#F6BE5F">Entrega de premios</td>
-                 </tr>
-              </table>
-            </center>
-        </section>
-    </article>
+       <article>
+        <center>
+            <h1>Coctacta con nosotros</h1>
+            <fieldset>
+                <legend aling = "center"><i>Registro: </i></legend>
+                <form autocomplete="off">
+                    <table align="center">
+                        <!--FILA 1-->
+                        <tr>
+                            <th > <b>Nombre: </b><br></th>
+                            <th >  <input type="text" name="nombre" pattern="[A-Za-z]{3,50}" required placeholder="Nombre" title="Introduzca su nombre"> </th>
+                        </tr>
+                        <!--FILA 2-->
+                        <tr>
+                            <th > <b>Apellidos: </b><br></th>
+                            <th >  <input type="text" name="apellidos" pattern="[A-Za-z]{3,50}" placeholder="Apellidos" required> </th>
+                        </tr>
+                            <!--FILA 3-->
+                        <tr>
+                            <th> Documento <br> identificativo:</th>
+                            <th ><select> 
+                                    <option value="DNI"> DNI </option>
+                                    <option value="Pasaporte"> Pasaporte </option>
+                                    </select><br></th>
+                            <th > </th>
+                        </tr>
+                        <!--FILA 4-->
+                        <tr>
+                            <th></th>
+                            <th> <input type="text" name="documento" placeholder="12345678-A"required></th>
+                        </tr>
+                        <!--FILA 5-->
+                        <tr>
+                            <th> <b>Correo: </b><br></th>
+                            <th><input type="email" name="correo" placeholder="example@example.com" required> </th>
+                        </tr>
+                        <!--FILA 6-->
+                        <tr>
+                            <th> <b>Fecha de nacimiento: </b><br></th>
+                            <th><input type="date" name="fec_nacimiento" required> </th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" ><h3>¿Que te ha parecido nuestro campeonato?</h3></th>
+                        </tr>
+                        <tr>
+                            <th colspan="2" ><textarea name="mensaje" rows="10" cols="50" placeholder="Escribe algo..."></textarea></th>
+                        </tr>
+                    </table>
+                    <br>
+                    <button type="submit" class="boton">ENVIAR</button>
+                    <button type="reset" class="boton">RESTABLECER</button>
+                </form>
+                </fieldset>
+        </center>
+        
     <br>
     <br>
     <!--PIE-->
