@@ -2,7 +2,7 @@
 <rss version = "2.0">
     <channel>
         <title>RSS de Alba</title>
-        <link></link>
+        <link>http://lenguaje-de-marcas-git-practica.apps.us-west-1.starter.openshift-online.com/EXAMEN_1/index_1.html</link>
         <description>Portal de noticias</description>
 
         <item>
@@ -28,6 +28,5 @@
             <link>https://puentegenilnoticias.com/2019/12/01/aparece-angelo-y-su-padre-tras-8-meses-desaparecido/</link>
             <description>El pequeño Angelo de 9 años y su padre, el pontanes Rafael Cabello, han sido localizados en buen estado tras 8 meses en paradero desconocido.</description>
         </item>
-
     </channel>
 </rss>
