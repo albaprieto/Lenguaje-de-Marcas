@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version = "2.0">
     <channel>
+        
         <title>RSS de Alba</title>
         <link>http://lenguaje-de-marcas-git-practica.apps.us-west-1.starter.openshift-online.com/EXAMEN_1/index_1.html</link>
         <description>Portal de noticias</description>
@@ -34,5 +35,6 @@
             <link>https://www.marca.com/balonmano/balonmano-femenino/mundial/2019/12/10/5def749422601d29728b460d.html</link>
             <description>La selección española femenina de balonmano selló su clasificación para los torneos preolímpicos, el objetivo con el que arrancó el Mundial, y se jugará mañana ante Rusia el pase a las semifinales, tras imponerse este martes por 31-33 a Japón. </description>
         </item>
+
     </channel>
 </rss>
