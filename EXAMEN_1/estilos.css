@@ -146,11 +146,14 @@ fieldset{
 footer {
     background-color: rgb(72, 160, 110);
     color: #fff;
+    padding: 15px;  
+    
+}
+.galeria{
+    display: inline-block
+}
+h3{
     text-align: center;
-    padding: 15px;
-    display: inline-block;
-    
-    
 }
 /*FILTROS IMAGENES*/
 span {
@@ -165,4 +168,7 @@ span:hover {
 
 span img {
     width: 70%;
+}
+.rss{
+    text-align: left;
 }
