@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version = "2.0">
+    <channel>
+        <title>RSS de Alba</title>
+        <link>http://lenguaje-de-marcas-git-practica.apps.us-west-1.starter.openshift-online.com/EXAMEN_1/index_1.html</link>
+        <description>Portal de noticias</description>
+
+        <item>
+            <title>Trump amenaza ahora a España con aumentar más los aranceles.</title>
+            <link>https://www.abc.es/internacional/abci-trump-amenaza-ahora-espana-aumentar-mas-aranceles-201912030331_noticia.html</link>
+            <description> El Gobierno de Estados Unidos anunció este lunes que estudia incrementar los aranceles sobre productos españoles</description>
+        </item>
+
+        <item>
+            <title>Leo Messi gana su sexto Balón de Oro</title>
+            <link>https://www.abc.es/deportes/futbol/abci-messi-gana-sexto-balon-desempatando-cristiano-ronaldo-201912030858_noticia.html</link>
+            <description>En un intento baldío por darle emoción a la gala, «France Football», publicación encargada de conceder el Balón de Oro con el voto de 182 corresponsales</description>
+        </item>
+
+        <item>
+            <title>Inagurada la exposicion de carteles de Semana Santa. </title>
+            <link>https://puentegenilnoticias.com/2019/12/02/inaugurada-la-exposicion-de-carteles-de-semana-santa/</link>
+            <description>Esta noche se ha inagurado la exposición de pinturas entre las que saldrá elegido el cartel de la Semana Santa 2020.</description>
+        </item>
+
+        <item>
+            <title>Aparece Angelo y su padre tas 8 meses desaparecidos.</title>
+            <link>https://puentegenilnoticias.com/2019/12/01/aparece-angelo-y-su-padre-tras-8-meses-desaparecido/</link>
+            <description>El pequeño Angelo de 9 años y su padre, el pontanes Rafael Cabello, han sido localizados en buen estado tras 8 meses en paradero desconocido.</description>
+        </item>
+    </channel>
+</rss>
