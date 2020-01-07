@@ -9,6 +9,44 @@
         <copyright>2019 Refsnes Data as. All rights reserved.</copyright>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Visual Studio Code</generator>
+        <image>
+            <url>https://abismofm.com/wp-content/uploads/2019/12/feed-rss.png</url>
+            <title>Mi canal RSS</title>
+        </image>
+        <language>es</language>
+        <lastBuildDate>Martes, 7 Enero 2020</lastBuildDate>
+        <managingEditor>am.prietorivas@iesrodmarin.com</managingEditor>
+        <pubDate>Martes, 7 Enero 2020</pubDate>
+        <skipDays> <!-- DIAS EN LOS QUE NO SE TRABAJA-->
+            <day>Sabado</day>
+            <day>Domingo</day>
+        </skipDays>
+        <skipHours> <!--HORAS EN LAS QUE NO SE TRABAJA-->
+            <hour>0</hour>
+            <hour>1</hour>
+            <hour>2</hour>
+            <hour>3</hour>
+            <hour>4</hour>
+            <hour>5</hour>
+            <hour>6</hour>
+            <hour>7</hour>
+            <hour>17</hour>
+            <hour>18</hour>
+            <hour>19</hour>
+            <hour>20</hour>
+            <hour>21</hour>
+            <hour>22</hour>
+            <hour>23</hour>
+        </skipHours>
+        <textinput>
+            <description>Search Google</description>
+            <title>Search</title>
+            <link>http://www.google.no/search?</link>
+            <name>q</name>
+        </textinput>
+        <ttl>60</ttl> <!-- especifica la cantidad de minutos que el feed puede permanecer en caché antes de actualizarlo desde la fuente-->
+        <webMaster>am.prietorivas@iesrodmarin.com</webMaster>
+
         
         <item>
             <title>Trump amenaza ahora a España con aumentar más los aranceles.</title>
@@ -37,5 +75,6 @@
             <description>El pequeño Angelo de 9 años y su padre, el pontanes Rafael Cabello, han sido localizados en buen estado tras 8 meses en paradero desconocido.</description>
             <category>noticias</category>
         </item>
+
     </channel>
 </rss>
