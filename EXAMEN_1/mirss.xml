@@ -53,6 +53,8 @@
             <link>https://www.abc.es/internacional/abci-trump-amenaza-ahora-espana-aumentar-mas-aranceles-201912030331_noticia.html</link>
             <description> El Gobierno de Estados Unidos anunció este lunes que estudia incrementar los aranceles sobre productos españoles</description>
             <category>noticias</category>
+            <author>am.prietorivas@iesrodmarin.com</author>
+            <source url="https://www.w3schools.com">W3Schools.com</source> <!--lugar desde el cual se aporta informacion-->
         </item>
 
         <item>
@@ -60,6 +62,7 @@
             <link>https://www.abc.es/deportes/futbol/abci-messi-gana-sexto-balon-desempatando-cristiano-ronaldo-201912030858_noticia.html</link>
             <description>En un intento baldío por darle emoción a la gala, «France Football», publicación encargada de conceder el Balón de Oro con el voto de 182 corresponsales</description>
             <category>noticias</category>
+            <comments>https://www.w3schools.com/xml/comments.asp</comments> <!-- pagina con comentarios-->
         </item>
 
         <item>
@@ -67,6 +70,7 @@
             <link>https://puentegenilnoticias.com/2019/12/02/inaugurada-la-exposicion-de-carteles-de-semana-santa/</link>
             <description>Esta noche se ha inagurado la exposición de pinturas entre las que saldrá elegido el cartel de la Semana Santa 2020.</description>
             <category>noticias</category>
+            <enclosure url="https://www.w3schools.com/media/3d.wmv" length="78645" type="video/wmv" />
         </item>
 
         <item>
@@ -74,6 +78,8 @@
             <link>https://puentegenilnoticias.com/2019/12/01/aparece-angelo-y-su-padre-tras-8-meses-desaparecido/</link>
             <description>El pequeño Angelo de 9 años y su padre, el pontanes Rafael Cabello, han sido localizados en buen estado tras 8 meses en paradero desconocido.</description>
             <category>noticias</category>
+            <guid>https://www.w3schools.com/xml/item0768</guid> <!-- indicador unico para cada elemento-->
+            <pubDate>Thu, 27 Apr 2006</pubDate> <!-- Ultima fecha de publicacion-->
         </item>
 
     </channel>
