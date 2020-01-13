@@ -3,25 +3,36 @@
     <channel>
         <title>RSS de Alba</title>
         <link>http://lenguaje-de-marcas-git-practica.apps.us-west-1.starter.openshift-online.com/EXAMEN_1/index_1.html</link>
+        <!--Breve descripcion del canal-->
         <description>Portal de noticias</description>
+        <!--Categoria a la que pertenece el canal-->
         <category>IT/Internet/Web development</category>
-        <cloud domain="www.w3schools.com" port="80" path="/RPC" registerProcedure="NotifyMe" protocol="xml-rpc" />
+        <!--registra procesos con una nube para ser notificado inmediatamente de las actualizaciones del canal-->
+        <cloud domain="www.w3schools.com" port="80" path="/RPC" registerProcedure="NotifyMe" protocol="xml-rpc" /> 
         <copyright>2019 Refsnes Data as. All rights reserved.</copyright>
+        <!--especifica una URL para la documentación del formato utilizado en el documento RSS-->
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <!--Especifica el IDE utilizado para desarrollar el RSS-->
         <generator>Visual Studio Code</generator>
         <image>
             <url>https://abismofm.com/wp-content/uploads/2019/12/feed-rss.png</url>
             <title>Mi canal RSS</title>
         </image>
+        <!--Especifica el idioma-->
         <language>es</language>
+        <!--Ultima modificacion del codigo-->
         <lastBuildDate>Martes, 7 Enero 2020</lastBuildDate>
+        <!--Direccion de correo del editor del RSS-->
         <managingEditor>am.prietorivas@iesrodmarin.com</managingEditor>
+        <!--Ultima publicacion del codigo-->
         <pubDate>Martes, 7 Enero 2020</pubDate>
-        <skipDays> <!-- DIAS EN LOS QUE NO SE TRABAJA-->
+        <!--Dias en los que no se trabaja-->
+        <skipDays> 
             <day>Sabado</day>
             <day>Domingo</day>
         </skipDays>
-        <skipHours> <!--HORAS EN LAS QUE NO SE TRABAJA-->
+        <!--Horas en las que no se trabaja-->
+        <skipHours> 
             <hour>0</hour>
             <hour>1</hour>
             <hour>2</hour>
@@ -38,48 +49,66 @@
             <hour>22</hour>
             <hour>23</hour>
         </skipHours>
+        <!--Campo de entrada de texto-->
         <textinput>
             <description>Search Google</description>
             <title>Search</title>
             <link>http://www.google.no/search?</link>
             <name>q</name>
         </textinput>
-        <ttl>60</ttl> <!-- especifica la cantidad de minutos que el feed puede permanecer en caché antes de actualizarlo desde la fuente-->
+        <!--Especifica la cantidad de minutos que el feed puede permanecer en caché antes de actualizarlo desde la fuente-->
+        <ttl>60</ttl>
+        <!--Direccion de correo del webmaster-->
         <webMaster>am.prietorivas@iesrodmarin.com</webMaster>
 
-        
+
         <item>
             <title>Trump amenaza ahora a España con aumentar más los aranceles.</title>
             <link>https://www.abc.es/internacional/abci-trump-amenaza-ahora-espana-aumentar-mas-aranceles-201912030331_noticia.html</link>
             <description> El Gobierno de Estados Unidos anunció este lunes que estudia incrementar los aranceles sobre productos españoles</description>
-            <category>noticias</category>
+            <!--Categoria a la que pertenece la noticia-->
+            <category>noticias</category> 
+            <!--Autor de la noticia-->
             <author>am.prietorivas@iesrodmarin.com</author>
-            <source url="https://www.w3schools.com">W3Schools.com</source> <!--lugar desde el cual se aporta informacion-->
+            <!--lugar desde el cual se aporta informacion-->
+            <source url="https://www.w3schools.com">W3Schools.com</source> 
         </item>
 
         <item>
             <title>Leo Messi gana su sexto Balón de Oro</title>
+            <!--Link a la noticia-->
             <link>https://www.abc.es/deportes/futbol/abci-messi-gana-sexto-balon-desempatando-cristiano-ronaldo-201912030858_noticia.html</link>
+            <!--Breve descripcion de la noticia-->
             <description>En un intento baldío por darle emoción a la gala, «France Football», publicación encargada de conceder el Balón de Oro con el voto de 182 corresponsales</description>
-            <category>noticias</category>
-            <comments>https://www.w3schools.com/xml/comments.asp</comments> <!-- pagina con comentarios-->
+            <!--Categoria a la que pertenece la noticia-->
+            <category>deportes</category> 
+            <!-- pagina con comentarios-->
+            <comments>https://www.w3schools.com/xml/comments.asp</comments> 
         </item>
 
         <item>
             <title>Inagurada la exposicion de carteles de Semana Santa. </title>
+            <!--Link a la noticia-->
             <link>https://puentegenilnoticias.com/2019/12/02/inaugurada-la-exposicion-de-carteles-de-semana-santa/</link>
+            <!--Breve descripcion de la noticia-->
             <description>Esta noche se ha inagurado la exposición de pinturas entre las que saldrá elegido el cartel de la Semana Santa 2020.</description>
-            <category>noticias</category>
+            <!--Categoria a la que pertenece la noticia-->
+            <category>noticias</category> 
             <enclosure url="https://www.w3schools.com/media/3d.wmv" length="78645" type="video/wmv" />
         </item>
 
         <item>
             <title>Aparece Angelo y su padre tas 8 meses desaparecidos.</title>
+            <!--Link a la noticia-->
             <link>https://puentegenilnoticias.com/2019/12/01/aparece-angelo-y-su-padre-tras-8-meses-desaparecido/</link>
+            <!--Breve descripcion de la noticia-->
             <description>El pequeño Angelo de 9 años y su padre, el pontanes Rafael Cabello, han sido localizados en buen estado tras 8 meses en paradero desconocido.</description>
-            <category>noticias</category>
-            <guid>https://www.w3schools.com/xml/item0768</guid> <!-- indicador unico para cada elemento-->
-            <pubDate>Thu, 27 Apr 2006</pubDate> <!-- Ultima fecha de publicacion-->
+            <!--Categoria a la que pertenece la noticia-->
+            <category>noticias</category> 
+            <!-- indicador unico para cada elemento-->
+            <guid>https://www.w3schools.com/xml/item0768</guid> 
+            <!-- Ultima fecha de publicacion-->
+            <pubDate>Thu, 27 Apr 2006</pubDate> 
         </item>
 
     </channel>
