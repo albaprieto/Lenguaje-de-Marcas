@@ -173,3 +173,6 @@ span img {
     text-align: left;
     float: left;
 }
+span.iconos{
+    width: 50px;
+}
