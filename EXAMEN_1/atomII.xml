@@ -3,7 +3,7 @@
     <title type="text">LLMM Tarea RSS ATOM</title>
     <id>http://lenguaje-de-marcas-git-practica.apps.us-west-1.starter.openshift-online.com/EXAMEN_1/index_1.html</id>
     <!--Enlaces que determinan el canal-->
-    <link rel="self" type="application/atom+xml" href="http://lenguaje-de-marcas-git-practica.apps.us-west-1.starter.openshift-online.com/EXAMEN_1/atomII.xml" />
+    <link rel="self" type="application/atom+xml" href="" />
     <link rel="alternate" type="text/html" href="http://lenguaje-de-marcas-git-practica.apps.us-west-1.starter.openshift-online.com/EXAMEN_1/index_1.html" />
      <!-- Fecha y hora de actualizacion-->
     <updated>2019-01-11T19:20:46Z</updated>
@@ -16,7 +16,9 @@
     <generator>Visual Studio Code</generator>
     <!--Icono del canal, tiene que ser una imagen de tamaño muy pequeño-->
     <icon><img src="imagenes/icon.png"></img></icon>
+    <!-- Primera fecha de publicacion-->
     <published></published>
+    <!--Informacion sobre los derechos que tiene una entrada o un feed-->
     <rights></rights>
     
 
